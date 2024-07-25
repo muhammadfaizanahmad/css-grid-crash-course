@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: 6px solid black;
+  display: grid;
+  /* grid-template-columns: 100px 200px 300px; */
+  /* grid-template-columns: 200px 200px 200px; */
+  /* grid-template-columns: repeat(3, 200px); */
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  /* grid-template-rows: 100px 200px 300px; */
+  /* grid-template-rows: 200px 200px 200px; */
+  /* grid-template-rows: repeat(3, 200px); */
+  /* grid-template-rows: 1fr 2fr 1fr; */
+  /* grid-template: 100px 200px 300px / 1fr 1fr 1fr; */
+  /* column-gap: 10px; */
+  /* row-gap: 20px; */
+  /* gap: 20px 10px; */
+  /* justify-items: start; */
+  /* justify-items: end; */
+  /* justify-items: center; */
+  /* align-items: start; */
+  /* align-items: end; */
+  /* align-items: center; */
+  /* place-items: center start; */
+}
+
+.grid-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.item-1 {
+  background-color: aqua;
+}
+
+.item-2 {
+  background-color: greenyellow;
+}
+
+.item-3 {
+  background-color: bisque;
+}
+
+.item-4 {
+  background-color: blueviolet;
+}
+.item-5 {
+  background-color: burlywood;
+}
+
+.item-6 {
+  background-color: cadetblue;
+}
+
+.item-7 {
+  background-color: chartreuse;
+}
+
+.item-8 {
+  background-color: red;
+}
+
+.item-9 {
+  background-color: pink;
+}

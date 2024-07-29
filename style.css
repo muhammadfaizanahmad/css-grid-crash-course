@@ -5,6 +5,7 @@ body {
 .container {
   border: 6px solid black;
   display: grid;
+  /* height: 800px; */
   /* grid-template-columns: 100px 200px 300px; */
   /* grid-template-columns: 200px 200px 200px; */
   /* grid-template-columns: repeat(3, 200px); */
@@ -13,7 +14,7 @@ body {
   /* grid-template-rows: 200px 200px 200px; */
   /* grid-template-rows: repeat(3, 200px); */
   /* grid-template-rows: 1fr 2fr 1fr; */
-  /* grid-template: 100px 200px 300px / 1fr 1fr 1fr; */
+  /* grid-template: repeat(3, 200px) / repeat(3, 200px); */
   /* column-gap: 10px; */
   /* row-gap: 20px; */
   /* gap: 20px 10px; */
@@ -24,6 +25,19 @@ body {
   /* align-items: end; */
   /* align-items: center; */
   /* place-items: center start; */
+  /* justify-content: start; */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* align-content: start; */
+  /* align-content: end; */
+  /* align-content: center; */
+  /* align-content: space-between; */
+  /* align-content: space-evenly; */
+  /* align-content: space-around; */
+  /* place-content: center center; */
 }
 
 .grid-item {
@@ -35,6 +49,17 @@ body {
 
 .item-1 {
   background-color: aqua;
+  /* grid-column-start: 1;
+  grid-column-end: span 3; */
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+  /* justify-self: start; */
+  /* justify-self: center; */
+  /* justify-self: end; */
+  /* align-self: self-start; */
+  /* align-self: center; */
+  /* align-self: self-end; */
+  /* place-self: center center ; */
 }
 
 .item-2 {
